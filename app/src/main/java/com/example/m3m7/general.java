@@ -88,6 +88,7 @@ public class general extends AppCompatActivity {
 
     private void goTohelp() {
         Intent help = new Intent(this, ayuda.class);
+        startActivity(help);
     }
 
     @Override
